@@ -194,6 +194,7 @@ function controllone() {
         alert("Hai vinto!")
         parti()
         pausa = false
+        document.getElementById("id_reset").disabled = false
     }
 }
 
