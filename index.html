@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href=".\css\style.css">
+	<script src=".\js\script.js"></script>
+	<title>Quindici</title>
+</head>
+
+<body>
+	<div class="header">
+		<div class="pezzo0"><input type="text" readonly value="Mosse: 0" style="margin: auto;" id="id_visualizzaMosse">
+		</div>
+		<div class="pezzo1">
+			<div id="ora">00:00</div>
+		</div>
+		<div class="pezzo2"><input type="button" id="id_pausa" value="Pausa" onclick="parti()"></div>
+		<div class="pezzo3"><input type="button" id="id_reset" value="Reset" onclick="randomizzare(this)"></div>
+		<div class="pezzo4">
+			<h1>Gioco del quindici</h1>
+		</div>
+		<div class="pezzo5">
+			<h3>Rey Mattia</h3>
+		</div>
+	</div>
+	<div class="contenitore">
+		<div class="oggetto-tabella"><img src="./images/1.gif" id="img1" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/2.gif" id="img2" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/3.gif" id="img3" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/4.gif" id="img4" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/5.gif" id="img5" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/6.gif" id="img6" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/7.gif" id="img7" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/8.gif" id="img8" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/9.gif" id="img9" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/10.gif" id="img10" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/11.gif" id="img11" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/12.gif" id="img12" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/13.gif" id="img13" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/14.gif" id="img14" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/15.gif" id="img15" onclick="premi(this)"></div>
+		<div class="oggetto-tabella"><img src="./images/0.gif" id="img16" onclick="premi(this)"></div>
+		<input type="button" id="id_bottoneMischia" value="Mischiare" onclick="randomizzare(this)">
+	</div>
+	<!--<input type="button" style="margin:auto" onclick="condizioneBase()" value="Debug"><br>-->
+</body>
+
+</html>

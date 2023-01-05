@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(247, 253, 243);
+}
+
+.contenitore {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    padding: 10px;
+    background-color: rgb(137, 216, 137);
+    width: fit-content;
+    height: fit-content;
+    align-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.oggetto-tabella {
+    font-size: 0px;
+    width: 74px;
+    height: auto;
+    text-align: center;
+    background-color: rgb(235, 235, 137);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    padding: 10px;
+    width: 470px;
+    height: 150px;
+    align-content: center;
+    margin: 0 auto;
+
+}
+
+.pezzo4 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row: 1;
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+.pezzo5 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row: 2;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+}
+
+.pezzo0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+}
+
+.pezzo1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+
+}
+
+.pezzo2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    position: relative;
+    top: 15px;
+}
+
+.pezzo3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    position: relative;
+    top: 15px;
+}
+
+#id_visualizzaMosse {
+    width: 60px;
+    position: relative;
+    left: 23px;
+    background-color: rgb(179, 214, 228);
+    border: 0;
+    border-radius: 2px;
+}
+
+#ora {
+    position: relative;
+    top: 40px;
+    left: 35px;
+    border: 1px solid black;
+    width: 37px;
+    padding: 5px;
+}
+
+#id_reset {
+    position: relative;
+    left: 30px;
+    background-color: rgb(179, 214, 228);
+    border-radius: 2px;
+}
+
+#id_bottoneMischia {
+    width: 331px;
+    height: 339px;
+    position: absolute;
+    opacity: 0.9;
+    background-color: rgb(231, 225, 173);
+    border: 1;
+}
+
+#id_pausa {
+    background-color: rgb(179, 214, 228);
+    border-radius: 2px;
+}
+
+/* volevo cambiare font ma si smarmella tutto*/
